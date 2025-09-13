@@ -781,6 +781,7 @@ public class Order {
 ### 웹 요청 처리
 #### 구조
 <img width="547" height="432" alt="image" src="https://github.com/user-attachments/assets/f665b35a-2fa6-4edf-a81a-97730325659e" />
+
 ##### 과정
 1. 클라이언트가 웹 서버로 요청을 보냄
 2. 웹 서버가 요청을 받음
