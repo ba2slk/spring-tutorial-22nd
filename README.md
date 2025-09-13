@@ -57,7 +57,7 @@ Spring → 엔터프라이즈 기술의 복잡함을 추상화/캡슐화하여 P
 
 # Spring 삼각형
 
-![[Pasted image 20250912132544.png]]
+<img width="1149" height="1051" alt="image" src="https://github.com/user-attachments/assets/01f5ef2e-37c4-43a1-b960-84ccb9bad885" />
 
 ## IoC/DI
 ### IoC (Inversion of Control)
@@ -780,7 +780,7 @@ public class Order {
 
 ### 웹 요청 처리
 #### 구조
-![[Pasted image 20250913135121.png]]
+<img width="547" height="432" alt="image" src="https://github.com/user-attachments/assets/f665b35a-2fa6-4edf-a81a-97730325659e" />
 ##### 과정
 1. 클라이언트가 웹 서버로 요청을 보냄
 2. 웹 서버가 요청을 받음
@@ -831,7 +831,7 @@ Pros
 - 웹에서 실행되는 응용프로그램
 - 자바에서는 컨테이너라고 부름
 #### Web Application Server
-![[Pasted image 20250913145237.png]]
+<img width="997" height="440" alt="image" src="https://github.com/user-attachments/assets/8900ba5f-b8a7-41aa-bfeb-26648504f738" />
 - 웹 애플리케이션을 실행하여 필요한 기능을 수행하고 그 결과를 웹 서버에게 전달하는 일종의 미들웨어
 - 동적인 페이지 생성 가능 + 비즈니스로직 처리
 - **톰캣** → HTTP 요청 처리 (Web Server) + 동적 컨텐츠 생성 (WAS/Servelt Engine)
@@ -842,7 +842,7 @@ Pros
 
 # Dispatcher Servlet
 ### Front Controller 디자인 패턴
-![[Pasted image 20250913145701.png]]
+<img width="595" height="292" alt="image" src="https://github.com/user-attachments/assets/12d3d0e8-cd14-4842-b550-41bcfa5d883c" />
 - 웹 애플리케이션에서 하나의 Front Controller가 모든 요청을 받음
 - 그 요청의 종류에 따라 각각의 적합한 핸들러로 요청을 전달(dispatch)
 
@@ -1083,7 +1083,7 @@ protected View resolveViewName(String viewName, @Nullable Map<String, Object> mo
 
 
 #### 구조 도식화
-![[Pasted image 20250913153135.png]]
+<img width="1426" height="359" alt="image" src="https://github.com/user-attachments/assets/8f851b57-ce74-446e-a5f6-28630ddf3deb" />
 
 참고자료
 - [https://mangkyu.tistory.com/216](https://mangkyu.tistory.com/216)
